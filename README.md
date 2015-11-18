@@ -9,8 +9,8 @@ A document for all things python. Kept well indexed with code commentary.
 - ctypes (create and manipulate C data types) 
 
 ###### special attributes
-- __file__
-- __dir__
+- '__file__'
+- '__dir__'
 
 ### Design Patterns
 ###### Creational
