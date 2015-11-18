@@ -1,15 +1,17 @@
 Python packages, libraries, tools
 =====
-pandas
+*pandas
 numpy
 sqlalchemy
 flask
 
 Python
 =====
-list comprehension
-lambda
+*list comprehension
+*lambda
 unit_testing
+*map
+*filter
 
 General Programming
 =====
