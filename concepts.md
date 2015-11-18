@@ -34,6 +34,8 @@ def fibon(n):
         a, b = b, a + b
 
 # Usage
-for x in fobon(1000):
+for x in fibon(1000):
     print(x)
 ```
+
+### Map
