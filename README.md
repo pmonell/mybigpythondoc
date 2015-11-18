@@ -16,6 +16,7 @@ A document for all things python. Kept well indexed with code commentary.
 ###### Creational
 flask app factory pattern
 
+app.py
 ```python
 from flask import Flask, blueprint
 from flask.ext.mongoengine import MongoEngine
@@ -38,7 +39,15 @@ def create_app(**config_overrides):
 
     return app
 ```
+run.py
+```python
+from app import create_app
+# standard from configuration file
+app = create_app()
+app.run
+```
 
 ###### Structural
+adapter pattern
 
 ###### Behavioral
