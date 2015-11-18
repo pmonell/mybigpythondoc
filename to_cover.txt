@@ -3,13 +3,13 @@ Python packages, libraries, tools
 *pandas
 numpy
 sqlalchemy
-flask
+-flask
 
 Python
 =====
 *list comprehension
 *lambda
-unit_testing
+-unit_testing
 *map
 *filter
 

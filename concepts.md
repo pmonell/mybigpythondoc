@@ -3,6 +3,7 @@
 2. [Map](#map)
 3. [Filter](#filter)
 4. [Lambda](#lambda)
+5. [List Comprehension](#list-comprehension)
 
 -
 ###Generators
@@ -134,3 +135,19 @@ square = lambda x: x**2
 # Usage
 square(2)
 ```
+-
+### List Comprehension
+
+##### Key points
+- Short and concise way to create a list
+
+```python
+even_numbers = [x for x in range(30) if x % 2 == 0]
+
+# instead of
+even_numbers = []
+for i in range(30):
+    if i % 2 == 0:
+        even_numbers.append(i)
+```
+
