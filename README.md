@@ -39,6 +39,6 @@ def create_app(**config_overrides):
     return app
 ```
 
-####### Structural
+###### Structural
 
-####### Behavioral
+###### Behavioral
