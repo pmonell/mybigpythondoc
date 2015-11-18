@@ -14,7 +14,7 @@ A document for all things python. Kept well indexed with code commentary.
 - \__dir__
 
 ### Design Patterns
-###### Creational
+##### Creational
 flask app factory pattern
 
 app.py
@@ -48,7 +48,7 @@ app = create_app()
 app.run
 ```
 
-###### Structural
+##### Structural
 **adapter**
 creates compatibility between client code and objects, standardizes the interface of classes
 
@@ -83,6 +83,6 @@ if __name__ == '__main__':
     '''
 ```
 
-facade
+**facade**
 
-###### Behavioral
+##### Behavioral
