@@ -12,7 +12,7 @@ A document for all things python. Kept well indexed with code commentary.
 ###### special attributes
 - \__file__
 - \__dir__
-===================
+
 ### Design Patterns
 ##### Creational
 flask app factory pattern
