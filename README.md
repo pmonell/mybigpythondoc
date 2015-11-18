@@ -60,10 +60,10 @@ def logger(func):
     def inner(*args, **kwargs):
 
         for count, arg in enumerate(args):
-            print "arg #%d: %s" % (count, arg)
+            print "arg %d: %s" % (count, arg)
 
         for key, value in kwargs.iteritems():
-            print "key %s: value %s" % (key, value)
+            print "key %s: %s" % (key, value)
         
         # return func with passed parameters from inner
         return func(*args, **kwargs)
@@ -77,9 +77,9 @@ if __name__ == '__main__':
     add_values(5, 4, z=8)
 
     '''prints:
-    arg #0: 5
-    arg #1: 4
-    key z: value 8
+    arg 0: 5
+    arg 1: 4
+    key z: 8
     '''
 ```
 
