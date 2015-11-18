@@ -3,7 +3,7 @@
 2. [Map](#map)
 3. [Filter](#filter)
 4. [Lambda](#lambda)
-5. [List Comprehension](#)
+5. [List Comprehension](#list-comprehension)
 
 -
 ###Generators
@@ -135,7 +135,7 @@ square = lambda x: x**2
 # Usage
 square(2)
 ```
-
+-
 ### List Comprehension
 
 ##### Key points
