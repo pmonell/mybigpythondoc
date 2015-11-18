@@ -1,6 +1,13 @@
 My Big Python Doc
 =================
 A document for all things python. Kept well indexed with code commentary.
+- [Core Modules](#core modules)
+    - [Utility](#utility)
+    - [Special Attributes](#special attributes)
+- [Design Patterns](#design patterns)
+    - [Creational](#creational)
+    - [Structureal](#structural)
+    - [Behavioral](#behavioral)
 
 -
 ### Core modules
