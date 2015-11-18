@@ -3,18 +3,18 @@ My Big Python Doc
 A document for all things python. Kept well indexed with code commentary.
 
 ### Core modules
-# utility
+###### utility
 - datetime
 - re (regular expression)
 - ctypes (create and manipulate C data types)
 - 
 
-# special attributes
+###### special attributes
 - __file__
 - __dir__
 
-### Design Patters
-# Creational
+### Design Patterns
+###### Creational
 flask app factory pattern
 
 ```python
@@ -40,6 +40,6 @@ def create_app(**config_overrides):
     return app
 ```
 
-# Structural
+####### Structural
 
-# Behavioral
+####### Behavioral
