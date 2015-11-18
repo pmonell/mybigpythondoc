@@ -116,3 +116,38 @@ if __name__ == '__main__':
 **facade**
 
 ##### Behavioral
+
+### Unit Testing
+- frameworks include unittest, pytest, nose, all of which extend unittest
+- extensions can be found in many modules, ie. Flask
+
+```python
+import unittest
+import mongoengine
+
+from app import create_app as create_app_base
+
+def create_app():
+    return create_app_base(
+        MONGODB_SETTINGS={'DB': 'db_test'},
+        TESTING = True,
+        CSRF_ENABLED = False,
+    )
+
+class TestCase(unittest.TestCase):
+    
+    def setUp(self):
+        self.app = create_app()
+
+    def tearDown(self):
+        pass
+
+    def test_app_creation(self): 
+        assert mongoengine.connection.get_db().name == 'db_test'
+        assert self.app.config['TESTING']
+
+    def test_hello_world(self):
+        with self.app.test_client() as c:
+            result = c.get('/')
+            self.assertEqual(result.data, 'hello world')
+```
