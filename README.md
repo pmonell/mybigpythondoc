@@ -49,6 +49,7 @@ app.run
 ```
 
 ##### Structural
+-
 **adapter**
 creates compatibility between client code and objects, standardizes the interface of classes
 
