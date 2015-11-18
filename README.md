@@ -14,6 +14,7 @@ A document for all things python. Kept well indexed with code commentary.
 - \__dir__
 
 ### Design Patterns
+===================
 ##### Creational
 flask app factory pattern
 
