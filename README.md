@@ -6,8 +6,7 @@ A document for all things python. Kept well indexed with code commentary.
 ###### utility
 - datetime
 - re (regular expression)
-- ctypes (create and manipulate C data types)
-- 
+- ctypes (create and manipulate C data types) 
 
 ###### special attributes
 - __file__
