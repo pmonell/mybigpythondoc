@@ -20,7 +20,8 @@ import re
 
 sentence = "Hello, this is my garble.d sentence"
 
-# use parenthesis to group matching strings, search for one or more characters matching the set in a word
+# use parenthesis to group matching strings, 
+# search for one or more characters matching the set in a word
 matched = re.match(r'([A-Za-z])\w+', sentence)
 
 print matched.groups() # prints '('H',)'
