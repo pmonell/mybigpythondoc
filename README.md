@@ -1,12 +1,33 @@
 My Big Python Doc
 =================
 A document for all things python. Kept well indexed with code commentary.
-
+-
 ### Core modules
 ###### utility
 - datetime
+```python
+import datetime
+
+now = datetime.datetime.now()
+utc_now = datetime.datetime.utcnow()
+time = datetime.time()
+```
 
 - re (regular expression)
+matching and using groups
+```python
+import re
+
+sentence = "Hello, this is my garble.d sentence"
+
+# use parenthesis to group matching strings, search for one or more characters matching the set in a word
+matched = re.match(r'([A-Za-z])\w+', sentence)
+
+print matched.groups() # prints '('H',)'
+print matched.group(0) # prints 'Hello'
+print matched.group(1) # prints 'H'
+```
+
 - ctypes (create and manipulate C data types) 
 
 ###### special attributes
