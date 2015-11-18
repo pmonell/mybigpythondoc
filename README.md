@@ -47,8 +47,8 @@ from app import create_app
 app = create_app()
 app.run
 ```
-
-##### Structural -
+-
+##### Structural 
 **adapter**
 creates compatibility between client code and objects, standardizes the interface of classes
 
