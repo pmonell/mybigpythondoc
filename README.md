@@ -6,7 +6,7 @@ A document for all things python. Kept well indexed with code commentary.
     - [Special Attributes](#special attributes)
 - [Design Patterns](#design patterns)
     - [Creational](#creational)
-    - [Structureal](#structural)
+    - [Structural](#structural)
     - [Behavioral](#behavioral)
 
 -
