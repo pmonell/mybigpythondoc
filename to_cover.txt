@@ -1,0 +1,24 @@
+Python packages, libraries, tools
+=====
+pandas
+numpy
+sqlalchemy
+flask
+
+Python
+=====
+list comprehension
+lambda
+unit_testing
+
+General Programming
+=====
+oop
+git
+mvc
+relational databases
+agile development
+testing
+basic algorithms
+regex
+rest
