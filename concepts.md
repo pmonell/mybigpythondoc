@@ -1,7 +1,10 @@
 # Contents
 1. [Generators](#generators)
 2. [Map](#map)
+3. [Filter](#filter)
+4. [Lambda](#lambda)
 
+-
 ###Generators
 
 ##### Key points
@@ -41,7 +44,7 @@ def fibon(n):
 for x in fibon(1000):
     print(x)
 ```
-
+-
 ### Map
 
 ##### Key points
@@ -81,4 +84,53 @@ then converted to a list.
 for i in range(5):
     value = list(map(lambda x: x(i), funcs))
     print(value)
+```
+-
+### Filter
+
+##### Key points
+- Applies a function to a list of elements
+- Only returns elements for which function returns true
+- Resembles a for loop but is a built in function that performs faster
+
+```python
+items = [-4, -3, -2, -1, 0, 1, 2, 3, 4]
+
+"""
+Inside the filter function here we iterate through the items list and if the element
+is less than zero, that qualifies as true and will be in the filter objected 
+returned which is then converted to a list
+"""
+numbers_less_than_zero = list(filter(lambda x: x < 0, items))
+print(numbers_less_than_zero)
+```
+-
+### Lambda
+
+##### Key points
+- One line functions
+- Used when you only need function to run once
+- Great for quick operations, use a function for more controlled cases
+
+```python
+add = lambda x, y: x + y
+
+print(add(3, 5))
+```
+
+Function vs. Lambda
+
+```python
+# Function
+def square(x):
+    return x**2
+    
+# Usage
+square(2)
+
+# Lambda
+square = lambda x: x**2
+
+# Usage
+square(2)
 ```
